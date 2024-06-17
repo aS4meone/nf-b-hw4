@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5555/api/v5/',
+    baseURL: 'https://nf-b-hw4-back.onrender.com/api/v5/',
 });
 
 axiosInstance.interceptors.request.use(
