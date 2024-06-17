@@ -45,7 +45,7 @@ const Home: React.FC = () => {
 
   return (
     <div className='bg-gray-900 text-white min-h-screen p-4 mt-12'>
-      <h1 className='text-3xl font-bold mb-1'>User's Songs</h1>
+      <h1 className='text-3xl font-bold mb-1'>User&apos;s Songs</h1>
       <h2 className='text-xl mb-4 pr-5'>Если страница пустая - значит на вашем аккаунте нет песен (которые вы загрузили)</h2>
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
         {songs.map((song) => (

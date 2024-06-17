@@ -17,7 +17,7 @@ const Header: React.FC = () => {
             </li>
             <li>
               <Link href="account" className="hover:text-gray-400 transition duration-300">
-                User's Songs
+                User&apos;s Songs
               </Link>
             </li>
           </ul>
