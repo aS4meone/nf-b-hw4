@@ -17,6 +17,6 @@ app.use('/api/v5', globalRouter)
 
 const server = createServer(app)
 
-server.listen(5555, () => {
-  console.log('server running at http://localhost:5555/api/v5')
+server.listen(3000, () => {
+  console.log('server running at http://localhost:3000/api/v5')
 })
